@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    color: #7d97ad;
+}
+
+h3, figure, footer {
+    text-align: center;
+}
+
+.banner {
+    width: 100%;
+    height: 50vh;
+}
+
+.name {
+    text-align: right;
+}
+
+.project {
+    margin-bottom: 10px;
+}
+
+/* MEDIA QUERIES */
+
+/* MOBILE */
+@media screen and (max-width: 414px) {
+    * {
+        text-align: center;
+    }
+
+    .banner {
+        width: 100vw;
+    }
+}
+
+/* TABLET */
+@media screen and (min-width: 415px) and (max-width: 800px) {
+    
+}
+
+/* DESKTOP */
+@media screen and (min-width: 801px) {
+    
+}
