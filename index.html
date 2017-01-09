@@ -5,9 +5,9 @@
         <meta charset="utf-8">
 
         <!-- Stylesheets -->
-        <link href="css/style.css" rel="stylesheet">
-        <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
 
         <title>My Portfolio</title>
     </head>
@@ -16,7 +16,13 @@
             <div class="container">
                 <header>
                     <div class="row">
-                        <div class="logo col-lg-2 col-md-2 col-sm-12 col-xs-12"></div>
+                        <div class="logo col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                            <picture>
+                                <source media="(min-width: 991px)" srcset="http://placehold.it/300x300">
+                                <source media="(min-width: 415px)" srcset="http://placehold.it/200x200">
+                                <img src="http://placehold.it/100x100" alt="logo" class="logo-icon">
+                            </picture>
+                        </div>
                         <div class="name col-lg-10 col-md-10 col-sm-12 col-xs-12">
                             <h1>Danny Aguinaldo</h1>
                             <h5>Front-End Wizard</h5>
@@ -25,7 +31,9 @@
                 </header>
                 <hr>
                 <picture>
-                    <img src="http://placehold.it/1600x1200" alt="banner" class="banner">
+                    <source media="(min-width: 801px)" srcset="http://placehold.it/1600x900">
+                    <source media="(min-width: 415px)" srcset="http://placehold.it/600x400">
+                    <img src="http://placehold.it/300x200" alt="banner" class="banner">
                 </picture>
                 <h2>Featured Work</h2>
                 <section class="featured_work">
